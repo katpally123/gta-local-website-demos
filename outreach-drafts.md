@@ -1,21 +1,21 @@
 # Outreach Drafts
 
-These are cold commercial outreach drafts. Before sending in Canada, add your real sender/business name, mailing address or valid contact info, and an unsubscribe line you will honor.
+Use these only after adding your real sender name, business/contact info, and an unsubscribe line you will honor.
 
 ## Happy Auto Body Shop
 
 To: kumarshappyauto@gmail.com
-Subject: Quick website demo for Happy Auto Body Shop
+Subject: Website built for Happy Auto Body Shop
 
 Hi Happy Auto Body team,
 
-I noticed Happy Auto Body Shop has business listings online, but I could not find a clear official website attached to the listing. I made a quick sample website concept for your shop here:
+I built a polished website layout for Happy Auto Body Shop using the public business information I could verify online:
 
-https://katpally123.github.io/gta-local-website-demos/?site=happy-auto-body
+https://katpally123.github.io/happy-auto-body-website/
 
-It is just an unofficial demo, but it shows how your services, hours, contact info, map, and repair/paint sections could look on a clean mobile-friendly site.
+It includes your services, hours, contact details, location, and a mobile-friendly layout for customers who are searching for auto body or collision repair in Scarborough.
 
-If you like it, I can customize it with your real photos and details and launch it for $200 CAD, with optional $20/month maintenance for small updates.
+If you like it, I can replace the placeholder photos with your real shop photos, confirm the final service details, and launch it for $200 CAD. I also offer optional maintenance for $20/month for small updates.
 
 Thanks,
 [Your name]
@@ -26,17 +26,17 @@ To stop receiving messages from me, reply “unsubscribe.”
 ## Glidden Auto Electric
 
 To: gliddenauto@hotmail.com
-Subject: Sample website concept for Glidden Auto Electric
+Subject: Website built for Glidden Auto Electric
 
 Hi Glidden Auto Electric team,
 
-I came across your Brampton auto-electric listing and noticed there may not be a clear official website linked from the public listing. I put together a quick sample website concept for your shop:
+I built a polished website layout for Glidden Auto Electric using the public business information I could verify online:
 
-https://katpally123.github.io/gta-local-website-demos/?site=glidden-auto-electric
+https://katpally123.github.io/glidden-auto-electric-website/
 
-The demo highlights electrical diagnostics, starters, alternators, repairs, hours, phone, email, and map details in a mobile-friendly format.
+It highlights electrical diagnostics, starters, alternators, repairs, hours, phone, email, and your Brampton location in a mobile-friendly format.
 
-If you like the direction, I can customize and launch it with your real photos and details for $200 CAD, with optional $20/month maintenance for small updates.
+If you like it, I can replace the placeholder photos with your real shop photos, confirm the final service details, and launch it for $200 CAD. I also offer optional maintenance for $20/month for small updates.
 
 Thanks,
 [Your name]
@@ -47,17 +47,17 @@ To stop receiving messages from me, reply “unsubscribe.”
 ## Unica Hair & Beauty Salon
 
 To: amiraelkony1@gmail.com
-Subject: Website demo idea for Unica Hair & Beauty Salon
+Subject: Website built for Unica Hair & Beauty Salon
 
 Hi Unica Hair & Beauty Salon team,
 
-I saw your salon has a very strong public review profile, and I made a quick sample website concept showing how your services could be presented in a clean, mobile-friendly way:
+I built a polished website layout for Unica Hair & Beauty Salon using the public business information I could verify online:
 
-https://katpally123.github.io/gta-local-website-demos/?site=unica-hair-beauty
+https://katpally123.github.io/unica-hair-beauty-website/
 
-The demo organizes hair colour, treatments, beauty services, appointment information, reviews, contact info, and location details. It is unofficial and uses demo imagery, but it can be customized with your real photos and service details.
+It organizes your colour services, treatments, beauty services, appointment information, public review strength, contact info, and location details in a mobile-friendly layout.
 
-If you like it, I can customize and launch it for $200 CAD, with optional $20/month maintenance for small updates.
+If you like it, I can replace the placeholder photos with your real salon photos, confirm the final service details, and launch it for $200 CAD. I also offer optional maintenance for $20/month for small updates.
 
 Thanks,
 [Your name]

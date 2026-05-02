@@ -1,0 +1,30 @@
+[
+  {
+    "company": "unica-hair-beauty-salon",
+    "industry": "salon",
+    "palette": {"primary": "#f7f2eb", "secondary": "#2f241b", "accent": "#d1ab67"},
+    "typography": "Cormorant Garamond + DM Sans",
+    "hero_style": "split-screen luxury editorial with pale card panel",
+    "section_ordering": "hero, facts, about, services, pricing, reviews, gallery, location, hours, FAQ, contact",
+    "button_style": "rounded pill, dark solid and translucent ghost",
+    "card_style": "large rounded cream cards with soft warm shadow",
+    "mood": "warm luxury",
+    "icon_style": "minimal dots and typographic numerals",
+    "gallery_presentation": "three-card image grid with pill captions",
+    "cta_placement": "header call button, hero buttons, bottom contact cards"
+  },
+  {
+    "company": "the-purple-broomstick",
+    "industry": "metaphysical retail",
+    "palette": {"primary": "#13201b", "secondary": "#f4efe2", "accent": "#d9793d", "support": "#7eb7a8"},
+    "typography": "Fraunces + Work Sans",
+    "hero_style": "full-bleed apothecary image with asymmetrical editorial copy",
+    "section_ordering": "hero, quick facts, intro, shop categories, feature strip, visit, reputation, FAQ, closing CTA",
+    "button_style": "small squared buttons with ember fill and framed secondary",
+    "card_style": "angular vellum cards with thin lines and restrained shadows",
+    "mood": "dark apothecary retail",
+    "icon_style": "typographic sigil and numbered category markers",
+    "gallery_presentation": "full-width editorial image strip with cropped product imagery",
+    "cta_placement": "hero contact actions, visit actions, closing call/email band"
+  }
+]

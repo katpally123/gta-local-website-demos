@@ -1,0 +1,740 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hummingbird Florist | Floral Design in Grimsby, Ontario</title>
+    <meta name="description" content="Hummingbird Florist creates elegant, captivating floral arrangements in Grimsby, Ontario. Custom bouquets, thoughtful occasion florals, and refined flower design by a trained local florist.">
+    <meta name="theme-color" content="#0f3f3b">
+    <meta property="og:title" content="Hummingbird Florist | Floral Design in Grimsby">
+    <meta property="og:description" content="Elegant custom flowers, occasion arrangements, and botanical design from Hummingbird Florist in Grimsby, Ontario.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=1600&q=82">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Nunito+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --ink: #0f3f3b;
+        --ink-2: #17322f;
+        --coral: #ec416c;
+        --aqua: #7ed5cf;
+        --leaf: #7ea85f;
+        --petal: #fff7f1;
+        --mist: #e9fbf8;
+        --line: #d7ebe5;
+        --white: #ffffff;
+        --gold: #d7a647;
+        font-family: "Nunito Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        color: var(--ink-2);
+        background: var(--petal);
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .shell {
+        width: min(1160px, calc(100% - 34px));
+        margin: 0 auto;
+      }
+
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 30;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 13px clamp(16px, 5vw, 54px);
+        border-bottom: 1px solid rgba(15, 63, 59, 0.12);
+        background: rgba(255, 247, 241, 0.92);
+        backdrop-filter: blur(18px);
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        color: var(--ink);
+        font-weight: 900;
+        text-decoration: none;
+      }
+
+      .brand-mark {
+        display: inline-grid;
+        width: 34px;
+        height: 34px;
+        place-items: center;
+        border: 2px solid var(--ink);
+        border-radius: 50%;
+        color: var(--coral);
+        font-family: Lora, serif;
+        font-size: 18px;
+      }
+
+      nav {
+        display: flex;
+        gap: 18px;
+        color: rgba(23, 50, 47, 0.7);
+        font-size: 14px;
+        font-weight: 800;
+      }
+
+      nav a {
+        text-decoration: none;
+      }
+
+      .nav-cta,
+      .button {
+        display: inline-flex;
+        min-height: 44px;
+        align-items: center;
+        justify-content: center;
+        padding: 11px 17px;
+        border: 2px solid var(--ink);
+        border-radius: 999px;
+        background: var(--ink);
+        color: var(--white);
+        font-weight: 900;
+        text-decoration: none;
+      }
+
+      .button.secondary {
+        border-color: var(--coral);
+        background: var(--white);
+        color: var(--ink);
+      }
+
+      .hero {
+        position: relative;
+        overflow: hidden;
+        background: linear-gradient(135deg, var(--mist), var(--petal) 58%, #ffe7ee);
+      }
+
+      .hero-grid {
+        display: grid;
+        min-height: calc(100vh - 70px);
+        grid-template-columns: 0.94fr 1.06fr;
+        gap: clamp(28px, 6vw, 72px);
+        align-items: center;
+        padding: 48px 0 42px;
+      }
+
+      .eyebrow {
+        color: var(--coral);
+        font-size: 13px;
+        font-weight: 900;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1,
+      h2 {
+        font-family: Lora, Georgia, serif;
+        letter-spacing: 0;
+      }
+
+      h1 {
+        max-width: 740px;
+        margin: 12px 0 18px;
+        color: var(--ink);
+        font-size: clamp(44px, 7.2vw, 86px);
+        line-height: 0.98;
+      }
+
+      h2 {
+        margin-bottom: 16px;
+        color: var(--ink);
+        font-size: clamp(31px, 5vw, 54px);
+        line-height: 1.04;
+      }
+
+      h3 {
+        margin-bottom: 8px;
+        color: var(--ink);
+        font-size: 20px;
+      }
+
+      .lead {
+        max-width: 660px;
+        color: rgba(23, 50, 47, 0.75);
+        font-size: 20px;
+        line-height: 1.58;
+      }
+
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 28px;
+      }
+
+      .hero-panel {
+        position: relative;
+        display: grid;
+        min-height: 650px;
+        grid-template-columns: 0.72fr 0.28fr;
+        gap: 14px;
+      }
+
+      .hero-photo,
+      .stack-photo {
+        overflow: hidden;
+        border: 2px solid var(--ink);
+        background: var(--white);
+      }
+
+      .hero-photo {
+        border-radius: 48% 48% 8px 8px;
+        box-shadow: 16px 16px 0 var(--aqua);
+      }
+
+      .hero-photo img,
+      .stack-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .photo-stack {
+        display: grid;
+        gap: 14px;
+        grid-template-rows: 1fr 1fr;
+      }
+
+      .stack-photo {
+        border-radius: 999px;
+      }
+
+      .floating-note {
+        position: absolute;
+        right: 8%;
+        bottom: 38px;
+        width: min(300px, 80%);
+        padding: 18px;
+        border: 2px solid var(--ink);
+        border-radius: 8px;
+        background: var(--white);
+        box-shadow: -10px 10px 0 var(--coral);
+      }
+
+      .floating-note strong {
+        display: block;
+        color: var(--ink);
+        font-family: Lora, serif;
+        font-size: 24px;
+      }
+
+      .floating-note span {
+        color: rgba(23, 50, 47, 0.7);
+        line-height: 1.45;
+      }
+
+      .quickbar {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        border-block: 2px solid var(--ink);
+        background: var(--ink);
+      }
+
+      .quickbar div {
+        min-height: 118px;
+        padding: 21px clamp(16px, 3vw, 28px);
+        background: var(--white);
+      }
+
+      .quickbar div + div {
+        border-left: 2px solid var(--ink);
+      }
+
+      .quickbar span {
+        display: block;
+        color: var(--coral);
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+      }
+
+      .quickbar strong {
+        display: block;
+        margin-top: 7px;
+        color: var(--ink);
+        font-size: 18px;
+        line-height: 1.35;
+      }
+
+      .section {
+        padding: clamp(60px, 9vw, 96px) 0;
+      }
+
+      .split {
+        display: grid;
+        grid-template-columns: 0.86fr 1.14fr;
+        gap: clamp(30px, 6vw, 66px);
+        align-items: start;
+      }
+
+      .body-copy {
+        color: rgba(23, 50, 47, 0.74);
+        font-size: 18px;
+        line-height: 1.65;
+      }
+
+      .service-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .service {
+        min-height: 180px;
+        padding: 22px;
+        border: 2px solid var(--ink);
+        border-radius: 8px;
+        background: var(--white);
+        box-shadow: 8px 8px 0 rgba(126, 213, 207, 0.65);
+      }
+
+      .service p,
+      .review p,
+      .faq p,
+      .contact-card p {
+        color: rgba(23, 50, 47, 0.72);
+        line-height: 1.58;
+      }
+
+      .band {
+        background: var(--ink);
+        color: var(--white);
+      }
+
+      .band h2,
+      .band h3 {
+        color: var(--white);
+      }
+
+      .band .body-copy,
+      .band p {
+        color: rgba(255, 255, 255, 0.76);
+      }
+
+      .story-list {
+        display: grid;
+        gap: 12px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .story-list li {
+        padding: 18px 20px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.07);
+      }
+
+      .gallery {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr 1fr;
+        gap: 14px;
+      }
+
+      .gallery img {
+        width: 100%;
+        height: 330px;
+        object-fit: cover;
+        border: 2px solid var(--ink);
+        border-radius: 8px;
+      }
+
+      .gallery img:nth-child(2) {
+        height: 420px;
+        margin-top: 48px;
+      }
+
+      .review-grid,
+      .faq-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .review,
+      .faq,
+      .contact-card {
+        padding: 22px;
+        border: 2px solid var(--ink);
+        border-radius: 8px;
+        background: var(--white);
+      }
+
+      .rating {
+        color: var(--gold);
+        font-size: 34px;
+        font-weight: 900;
+        letter-spacing: 0.02em;
+      }
+
+      .contact-wrap {
+        display: grid;
+        grid-template-columns: 0.82fr 1.18fr;
+        gap: 18px;
+        align-items: stretch;
+      }
+
+      .contact-card {
+        display: grid;
+        align-content: start;
+        gap: 12px;
+      }
+
+      .contact-line {
+        padding: 13px 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .contact-line span {
+        display: block;
+        color: var(--coral);
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
+      .contact-line strong {
+        display: block;
+        margin-top: 5px;
+        color: var(--ink);
+      }
+
+      iframe {
+        width: 100%;
+        min-height: 470px;
+        border: 2px solid var(--ink);
+        border-radius: 8px;
+        background: var(--mist);
+      }
+
+      .footer {
+        padding: 30px 18px;
+        border-top: 2px solid var(--ink);
+        color: rgba(23, 50, 47, 0.72);
+        background: var(--white);
+        text-align: center;
+        font-size: 14px;
+      }
+
+      @media (max-width: 920px) {
+        nav {
+          display: none;
+        }
+
+        .hero-grid,
+        .quickbar,
+        .split,
+        .contact-wrap,
+        .review-grid,
+        .faq-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .hero-grid {
+          min-height: auto;
+          padding-top: 38px;
+        }
+
+        .hero-panel {
+          min-height: 520px;
+          grid-template-columns: 1fr;
+        }
+
+        .photo-stack {
+          display: none;
+        }
+
+        .quickbar div + div {
+          border-left: 0;
+          border-top: 2px solid var(--ink);
+        }
+
+        .service-grid,
+        .gallery {
+          grid-template-columns: 1fr;
+        }
+
+        .gallery img,
+        .gallery img:nth-child(2) {
+          height: 280px;
+          margin-top: 0;
+        }
+      }
+
+      @media (max-width: 560px) {
+        .topbar {
+          align-items: flex-start;
+        }
+
+        .nav-cta {
+          min-height: 40px;
+          padding: 9px 12px;
+          font-size: 13px;
+        }
+
+        h1 {
+          font-size: 43px;
+        }
+
+        .hero-panel {
+          min-height: 420px;
+        }
+
+        .floating-note {
+          right: 18px;
+          bottom: 24px;
+        }
+      }
+    </style>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Florist",
+        "name": "Hummingbird Florist",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2-340 Main St E",
+          "addressLocality": "Grimsby",
+          "addressRegion": "ON",
+          "postalCode": "L3M 1R2",
+          "addressCountry": "CA"
+        },
+        "email": "ljoudwa@gmail.com",
+        "areaServed": "Grimsby, Ontario",
+        "url": "https://katpally123.github.io/gta-local-website-demos/hummingbird-florist/",
+        "sameAs": ["https://www.allbiz.ca/hummingbird-florist"]
+      }
+    </script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Hummingbird Florist home">
+        <span class="brand-mark">H</span>
+        <span>Hummingbird Florist</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#flowers">Flowers</a>
+        <a href="#story">Story</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#visit">Visit</a>
+      </nav>
+      <a class="nav-cta" href="mailto:ljoudwa@gmail.com">Email the florist</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Hummingbird Florist introduction">
+        <div class="shell hero-grid">
+          <div>
+            <div class="eyebrow">Floral design in Grimsby, Ontario</div>
+            <h1>Elegant arrangements for moments that deserve care.</h1>
+            <p class="lead">Hummingbird Florist creates graceful, captivating bouquets and custom floral pieces from a trained local designer with a personal, artful approach.</p>
+            <div class="hero-actions">
+              <a class="button" href="mailto:ljoudwa@gmail.com?subject=Flower%20order%20inquiry">Start an order</a>
+              <a class="button secondary" href="#flowers">Explore flowers</a>
+            </div>
+          </div>
+          <div class="hero-panel" aria-label="Floral arrangement photos">
+            <div class="hero-photo">
+              <img src="https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=1200&q=84" alt="Bright hand-tied floral bouquet">
+            </div>
+            <div class="photo-stack" aria-hidden="true">
+              <div class="stack-photo">
+                <img src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=600&q=82" alt="">
+              </div>
+              <div class="stack-photo">
+                <img src="https://images.unsplash.com/photo-1508610048659-a06b669e3321?auto=format&fit=crop&w=600&q=82" alt="">
+              </div>
+            </div>
+            <div class="floating-note">
+              <strong>5.0 public rating signal</strong>
+              <span>AllBiz lists Hummingbird Florist with a 5.0 signal from 1+ review elsewhere and no owned website listed.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="quickbar" aria-label="Key business information">
+        <div>
+          <span>Location</span>
+          <strong>2-340 Main St E, Grimsby, ON L3M 1R2</strong>
+        </div>
+        <div>
+          <span>Contact</span>
+          <strong><a href="mailto:ljoudwa@gmail.com">ljoudwa@gmail.com</a></strong>
+        </div>
+        <div>
+          <span>Hours</span>
+          <strong>Public hours are not listed; email to confirm availability.</strong>
+        </div>
+        <div>
+          <span>Parking</span>
+          <strong>Public listing notes a parking lot is available.</strong>
+        </div>
+      </section>
+
+      <section id="flowers" class="section shell split">
+        <div>
+          <div class="eyebrow">Floral work</div>
+          <h2>Soft, polished flowers without the rushed catalogue feel.</h2>
+          <p class="body-copy">Every arrangement begins with the occasion, the recipient, and the feeling the flowers need to carry. Hummingbird Florist is positioned for thoughtful custom requests, graceful bouquets, and pieces that feel personal rather than generic.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service">
+            <h3>Custom bouquets</h3>
+            <p>Hand-composed floral pieces for birthdays, thank-yous, congratulations, and personal gestures.</p>
+          </article>
+          <article class="service">
+            <h3>Occasion arrangements</h3>
+            <p>Elegant flowers for anniversaries, family gatherings, seasonal celebrations, and meaningful milestones.</p>
+          </article>
+          <article class="service">
+            <h3>Event florals</h3>
+            <p>Consultation-friendly design for showers, intimate events, table flowers, and special settings.</p>
+          </article>
+          <article class="service">
+            <h3>Sympathy pieces</h3>
+            <p>Respectful arrangements for moments that call for quiet beauty and careful communication.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="story" class="section band">
+        <div class="shell split">
+          <div>
+            <div class="eyebrow">The story</div>
+            <h2>Designed by someone who chose floristry for the craft.</h2>
+            <p class="body-copy">Public directory information describes Hummingbird Florist as a floral design business founded from a personal passion for elegant, captivating bouquets. The founder is listed as having earned a floral design diploma with honors from ICS Canada.</p>
+          </div>
+          <ul class="story-list">
+            <li>Founded from a long-standing interest in artistic flower arranging.</li>
+            <li>Public profile emphasizes elegant and captivating bouquets.</li>
+            <li>Trained through ICS Canada, with honors noted in the public listing.</li>
+            <li>Located near Main Street East in Grimsby with parking noted.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section shell">
+        <div class="eyebrow">Gallery direction</div>
+        <h2>Fresh flowers, natural color, and a clear visual style.</h2>
+        <div class="gallery" aria-label="Representative floral gallery">
+          <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=82" alt="Mixed garden flowers in warm light">
+          <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=900&q=82" alt="Pink and cream bouquet closeup">
+          <img src="https://images.unsplash.com/photo-1487530811176-3780de880c2d?auto=format&fit=crop&w=900&q=82" alt="Florist arranging flowers on a table">
+        </div>
+      </section>
+
+      <section id="reviews" class="section shell">
+        <div class="split">
+          <div>
+            <div class="eyebrow">Reputation</div>
+            <h2>Public signals made easier for customers to trust.</h2>
+            <p class="body-copy">A simple owned website can bring the key details together: where to find the florist, how to ask about an order, what types of flowers are offered, and why the design style is personal.</p>
+          </div>
+          <div class="review-grid">
+            <article class="review">
+              <div class="rating">5.0</div>
+              <h3>Public rating signal</h3>
+              <p>AllBiz reports a 5.0 signal from 1+ review elsewhere.</p>
+            </article>
+            <article class="review">
+              <div class="rating">No site</div>
+              <h3>Website gap</h3>
+              <p>The public listing says there is no website listed, only a Facebook profile.</p>
+            </article>
+            <article class="review">
+              <div class="rating">Local</div>
+              <h3>Grimsby presence</h3>
+              <p>The listing places the florist at 2-340 Main St E in Grimsby.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section shell">
+        <div class="eyebrow">Questions</div>
+        <h2>Fast answers before someone reaches out.</h2>
+        <div class="faq-grid">
+          <article class="faq">
+            <h3>How do I place an order?</h3>
+            <p>Email Hummingbird Florist with the occasion, preferred colors, date needed, and any recipient details.</p>
+          </article>
+          <article class="faq">
+            <h3>Are hours listed?</h3>
+            <p>Public hours are not listed, so availability should be confirmed directly by email.</p>
+          </article>
+          <article class="faq">
+            <h3>Is parking available?</h3>
+            <p>Yes. The public listing notes that a parking lot is available at the location.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="visit" class="section shell contact-wrap">
+        <article class="contact-card">
+          <div class="eyebrow">Visit or inquire</div>
+          <h2>Hummingbird Florist</h2>
+          <div class="contact-line">
+            <span>Address</span>
+            <strong>2-340 Main St E, Grimsby, ON L3M 1R2</strong>
+          </div>
+          <div class="contact-line">
+            <span>Email</span>
+            <strong><a href="mailto:ljoudwa@gmail.com">ljoudwa@gmail.com</a></strong>
+          </div>
+          <div class="contact-line">
+            <span>Website status</span>
+            <strong>No owned website listed in public directory source.</strong>
+          </div>
+          <a class="button" href="mailto:ljoudwa@gmail.com?subject=Flower%20order%20inquiry">Email now</a>
+        </article>
+        <iframe
+          title="Map to Hummingbird Florist in Grimsby"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=2-340%20Main%20St%20E%20Grimsby%20ON%20L3M%201R2&output=embed">
+        </iframe>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Hummingbird Florist | Floral design in Grimsby, Ontario | Public information verified from directory sources.
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+const header=document.querySelector('[data-elevate]');const setHeader=()=>{if(header)header.classList.toggle('is-elevated',window.scrollY>12)};setHeader();window.addEventListener('scroll',setHeader,{passive:true});

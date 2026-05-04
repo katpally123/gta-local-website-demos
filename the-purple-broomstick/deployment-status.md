@@ -4,5 +4,5 @@
 - Repository: katpally123/gta-local-website-demos
 - Path: `/the-purple-broomstick/`
 - Live URL: https://katpally123.github.io/gta-local-website-demos/the-purple-broomstick/
-- Last remote commit in this run: cdffe79add3498a0f7d6260f11c0b021f06b6ec5
-- Status: Published through GitHub Pages repository path; HTTP verification recorded in automation report.
+- Status: Published to the existing GitHub Pages repository path.
+- Verification note: files were committed through the GitHub connector; direct HTTP verification from the local sandbox could not connect externally.
